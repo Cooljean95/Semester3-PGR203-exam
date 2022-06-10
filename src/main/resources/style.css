@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+}
+
+main {
+    padding: 1em;
+    background-color: white;
+    max-width: 60em;
+    margin: auto;
+    border-radius: .5em;
+    color: black;
+}
+
+
+a {
+    color: black;
+    padding: 1em;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+h1 {
+    text-align: center;
+}

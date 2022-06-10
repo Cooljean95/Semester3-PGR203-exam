@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add option to question | Kristiania Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Add option to question</h1>
+<p>Write in the title first, then the new question</p>
+<form method="GET" action="/api/editQuestion">
+    <label>Question: <select id="questions" name="questions" /></label>
+    <label>Question text: <input type="title" name="title" /></label>
+    <label>Question text: <input type="text" name="text" /></label>
+    <button>Edit</button>
+</form>
+<br>
+<div>
+    <a href="index.html">Return to front page</a>
+</div>
+<script>
+    fetch("/api/questionOptions")
+        .then(function(response) {
+            return response.text();
+        }).then(function(text) {
+        document.getElementById("questions").innerHTML = text;
+    });
+</script>
+</body>
+</html>
