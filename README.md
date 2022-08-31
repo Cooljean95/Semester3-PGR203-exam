@@ -1,5 +1,7 @@
 # PGR203 Avansert Java eksamen
 
+Karakter: C
+
 [![Java CI with Maven](https://github.com/kristiania-pgr203-2021/pgr203-exam-Cooljean95/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/kristiania-pgr203-2021/pgr203-exam-Cooljean95/actions/workflows/maven.yml)
 
 # Hvordan programmet skal testes:
